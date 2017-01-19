@@ -16,12 +16,12 @@ app.get("/", (req, res) => {
 });
 
 app.get("/choose_english", (req, res) => {
-  res.cookie('lang', 'en'); // Set-Cookie=en
+  res.cookie('lang', 'en'); // Set-Cookie: lang=en
   res.redirect("/");
 })
 
 app.get("/choose_french", (req, res) => {
-  res.cookie('lang', 'fr'); // Set-Cookie=fr
+  res.cookie('lang', 'fr'); // Set-Cookie: lang=fr
   res.redirect("/");
 });
 
