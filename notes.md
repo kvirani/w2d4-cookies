@@ -4,4 +4,5 @@
   - From the browser
   - From DevTools
   - HTTP Headers
-  -
+
+- Cookies for Authentication
